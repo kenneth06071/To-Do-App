@@ -1,3 +1,8 @@
-export default function Todoitem({item}) {
-    return (<h3>{item}</h3>)
+export default function Todoitem({ item }) {
+    return (
+    <div>
+        <h3>{item}</h3>
+        <hr />
+    </div>
+)
 }
